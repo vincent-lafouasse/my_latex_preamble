@@ -26,7 +26,17 @@ psfrag
 
 #### chemistry/physics
 mhchem
-siunitx
+
+---
+- **siunitx** : provides proper formatting for physical quantities in a consistent 
+way with readable code. 
+
+The commands I use the most are `\SI{number}{unit}`, 
+`\si{unit}` and `\ang{angle}`. This package is supplemented by `chemstyle` 
+for non-SI units.
+
+---
+
 upgreek
 chemstyle
 
