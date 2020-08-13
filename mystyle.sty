@@ -4,32 +4,50 @@
 
 % preliminary declarations
 
-% encoding
-% needed to use accents in french
-\RequirePackage[utf8]{inputenc}
+% general packages 
+
+%%% encoding
+\RequirePackage[utf8]{inputenc} % needed to use accents in french
 \RequirePackage[T1]{fontenc}
 \RequirePackage[english,francais]{babel}
 
+
+%%% maths 
 \RequirePackage{amsmath} % a lot of useful stuff, not sure what tho
 \RequirePackage{amsfonts} % math fonts e.g. mathbb or mathfrak
 \RequirePackage{amssymb} % symbols
 \RequirePackage{amsthm} % theorem environments
-
-\RequirePackage{graphicx} % includegraphics
-\RequirePackage{psfrag} % LaTeX in eps figures
-\RequirePackage{upgreek} % upright greek letters, compared to mathmode greek letters
-\RequirePackage{fullpage} % margins
-\RequirePackage{caption} % customise the captions of tables and figures
-\RequirePackage{float} % provides the H "which means ‘PUT IT HERE’ (as opposed to the standard [h] option which means ‘You may put it here if you like’"
-\RequirePackage{nameref} % cite sections by their name instead of their number (using label and ref)
-\RequirePackage{titling} % fancy maketitle
 \RequirePackage{cancel} % cancel equation terms
 
+
+%%% figures 
+\RequirePackage{graphicx} % includegraphics
+\RequirePackage{float} % provides the [H] option which means 'PUT IT HERE'
+% (as opposed to the standard [h] option which means ��"You may put it here if you like"
+\RequirePackage{caption} % customise the captions of tables and figures
+\RequirePackage{subcaption}
+\RequirePackage{psfrag} % LaTeX in eps figures
+
+
+%%% chemistry/physics
 \RequirePackage[version=4]{mhchem} % chemistry
 \RequirePackage{siunitx} % formatting of units
+\RequirePackage{upgreek} % upright greek letters, compared to mathmode greek letters
+
+
+%%% formatting
+\RequirePackage{fullpage} % margins
+\RequirePackage{titling} % fancy maketitle
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr}
+ 
+
+%%% misc
 \RequirePackage{appendix} % self explanatory
+\RequirePackage{nameref} % cite sections by their name instead of their number (using label and ref)
 \RequirePackage{hyperref} % clickable table of contents, footnotes, citations
 \RequirePackage{csquotes} % allows for inline and display quotations
+\RequirePackage{lipsum}
 
 
 
