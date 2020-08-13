@@ -131,3 +131,5 @@ lipsum
 [ ] succint description of each package (why I need them)
 
 [ ] a cheat sheet of the commands i use the most
+
+[ ] test `chemmacros` as it seems quite powerful and easy to use
