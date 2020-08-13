@@ -1,12 +1,90 @@
 # Vincent's special package
 
-### General packages
+## Description
 
-### Math packages
+#### encoding
+inputenc
+fontenc
+babel
 
-### Chemistry packages
 
-### Misc Packages
+#### maths 
+amsmath
+amsfonts
+amssymb
+amsthm
+cancel
+
+
+#### figures 
+graphicx
+float
+caption
+subcaption
+psfrag
+
+
+#### chemistry/physics
+mhchem
+siunitx
+upgreek
+chemstyle
+
+
+#### formatting
+fullpage
+titling
+titlesec
+fancyhdr
+ 
+
+#### misc
+appendix
+nameref
+hyperref
+csquotes
+lipsum
+
+
+## Raw list 
+
+##### encoding
+inputenc
+fontenc
+babel
+
+##### maths 
+amsmath
+amsfonts
+amssymb
+amsthm
+cancel
+
+##### figures 
+graphicx
+float
+caption
+subcaption
+psfrag
+
+##### chemistry/physics
+mhchem
+siunitx
+upgreek
+chemstyle
+
+##### formatting
+fullpage
+titling
+titlesec
+fancyhdr
+
+##### misc
+appendix
+nameref
+hyperref
+csquotes
+lipsum
 
 
 ## Roadmap
